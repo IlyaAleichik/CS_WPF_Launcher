@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="ArbitrixLauncher.Controls.GridViewImage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+  
+    <Grid Name="MainGrid">
+        <ItemsControl x:Name="ListViewProducts" ItemsSource="{Binding Product}">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+
+            <ItemsControl.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Открыть"></MenuItem>
+                    <MenuItem Header="Показать в папке"></MenuItem>
+                    <MenuItem Header="Создать ярлык"></MenuItem>
+                    <MenuItem Header="Копировать"></MenuItem>
+                    <MenuItem Header="Удалить"></MenuItem>
+                </ContextMenu>
+            </ItemsControl.ContextMenu>
+        </ItemsControl>
+    </Grid>
+</UserControl>

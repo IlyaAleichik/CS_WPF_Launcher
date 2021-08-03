@@ -1,0 +1,4 @@
+D:\OneDrive\1_Programming\1_current\ArbitrixLauncher\AdaptiveWrapPanel\obj\Debug\netstandard2.0\AdaptiveWrapPanel.csprojAssemblyReference.cache
+D:\OneDrive\1_Programming\1_current\ArbitrixLauncher\AdaptiveWrapPanel\obj\Debug\netstandard2.0\AdaptiveWrapPanel.csproj.CoreCompileInputs.cache
+D:\OneDrive\1_Programming\1_current\ArbitrixLauncher\AdaptiveWrapPanel\obj\Debug\netstandard2.0\AdaptiveWrapPanel.AssemblyInfoInputs.cache
+D:\OneDrive\1_Programming\1_current\ArbitrixLauncher\AdaptiveWrapPanel\obj\Debug\netstandard2.0\AdaptiveWrapPanel.AssemblyInfo.cs
